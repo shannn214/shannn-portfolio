@@ -1,0 +1,69 @@
+// font-family
+body,
+html {
+  // font-family: -apple-system, BlinkMacSystemFont, 'Karla', 'Noto Sans TC',
+  //   'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Open Sans',
+  //   'Helvetica Neue', sans-serif;
+  font-family: -apple-system, 'Karla', sans-serif;
+  color: #1c1c1e;
+  touch-action: manipulation;
+  -webkit-overflow-scrolling: touch;
+}
+
+// font-szie
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+}
+
+.h7 {
+  font-weight: 500;
+}
+
+h1,
+.h1 {
+  font-size: 44px;
+}
+
+h2,
+.h2 {
+  font-size: 30px;
+}
+
+h3,
+.h3 {
+  font-size: 26px;
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+}
+
+h5,
+.h5 {
+  font-size: 18px;
+}
