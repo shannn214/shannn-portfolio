@@ -8,7 +8,7 @@ import Logs from '../../pages/logs'
 function routes() {
   return (
     <Routes>
-      <Route path="shannn-portfolio" element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<Projects />} />
         <Route path="about" element={<About />} />
         <Route path="logs" element={<Logs />} />
