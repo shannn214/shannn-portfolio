@@ -1,0 +1,35 @@
+.layout-wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  // padding-top: 60px;
+  // overflow: scroll;
+}
+.nav-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 10vw;
+  height: 60px;
+  width: 100%;
+  background-color: $PrimaryGray;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+
+  .nav-icon {
+    width: 50px;
+  }
+  .nav-item-wrap {
+    display: flex;
+  }
+  .nav-item {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    a {
+      text-decoration: none;
+      color: $Dark01;
+    }
+  }
+}

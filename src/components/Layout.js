@@ -4,10 +4,19 @@ import { Outlet, Link } from 'react-router-dom'
 const Layout = () => {
   return (
     <div className="layout-wrap">
-      <div>
-        <Link to="/">Projects</Link>
-        <Link to="logs">Logs</Link>
-        <Link to="about">About</Link>
+      <div className="nav-wrap">
+        <div className="nav-icon">icon</div>
+        <div className="nav-item-wrap">
+          <div className="nav-item">
+            <Link to="/">Projects</Link>
+          </div>
+          <div className="nav-item">
+            <Link to="logs">Logs</Link>
+          </div>
+          <div className="nav-item">
+            <Link to="about">About</Link>
+          </div>
+        </div>
       </div>
       <Outlet />
     </div>

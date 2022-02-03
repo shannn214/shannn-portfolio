@@ -4,7 +4,7 @@ html {
   // font-family: -apple-system, BlinkMacSystemFont, 'Karla', 'Noto Sans TC',
   //   'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Open Sans',
   //   'Helvetica Neue', sans-serif;
-  font-family: -apple-system, 'Karla', sans-serif;
+  font-family: 'Karla', sans-serif;
   color: #1c1c1e;
   touch-action: manipulation;
   -webkit-overflow-scrolling: touch;
@@ -45,7 +45,7 @@ h6,
 
 h1,
 .h1 {
-  font-size: 44px;
+  font-size: 40px;
 }
 
 h2,
@@ -66,4 +66,8 @@ h4,
 h5,
 .h5 {
   font-size: 18px;
+}
+
+#root {
+  background-color: #fafafa !important;
 }

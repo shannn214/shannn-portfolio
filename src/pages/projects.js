@@ -2,8 +2,13 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
-      <div>Projects</div>
+    <div className="project-container">
+      <div className="project-banner">
+        <h1>Hi there, I'm Shannn. 👋</h1>
+        <div className="des">
+          I'm passionate about UX design and front-end development.
+        </div>
+      </div>
     </div>
   )
 }
