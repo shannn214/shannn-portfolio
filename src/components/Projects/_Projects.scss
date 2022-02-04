@@ -1,5 +1,5 @@
 .project-container {
-  padding-top: 60px;
+  padding: 60px 0;
 }
 .project-banner {
   height: 400px;
@@ -8,11 +8,43 @@
   justify-content: center;
   align-items: center;
   color: #333;
+  padding: 0 20px;
 
   .des {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #7a7a7a;
     font-size: 26px;
+  }
+}
+.project-wrap {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 40px;
+  // max-width: 60vw;
+
+  .card {
+    background-color: rgb(135, 172, 197);
+    // width: 200px;
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 600px) {
+  // .project-banner {
+  // 	padding: unset;
+  // }
+  .project-wrap {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10vw;
+    grid-row-gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+
+    .card {
+      border-radius: 7px;
+      // width: 200px;
+      height: 350px;
+    }
   }
 }

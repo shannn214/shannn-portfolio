@@ -9,6 +9,13 @@ const Projects = () => {
           I'm passionate about UX design and front-end development.
         </div>
       </div>
+      <div className="project-wrap">
+        <div className="card">aaa</div>
+        <div className="card">aaa</div>
+        <div className="card">aaa</div>
+        <div className="card">aaa</div>
+        <div className="card">aaa</div>
+      </div>
     </div>
   )
 }

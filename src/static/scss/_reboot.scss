@@ -8,6 +8,10 @@ html {
   color: #1c1c1e;
   touch-action: manipulation;
   -webkit-overflow-scrolling: touch;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  background-color: #fafafa;
 }
 
 // font-szie

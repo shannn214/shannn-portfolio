@@ -1,19 +1,21 @@
 .about-container {
-  padding: 50px 20vw;
+  padding: 50px 10vw;
 }
 .profile {
   display: flex;
-  padding: 20px;
+  flex-direction: column;
   margin: 100px 0;
 
   .section {
     width: 100%;
+    padding: 5px 0;
   }
   .imgWrap {
     display: flex;
     justify-content: center;
     img {
-      width: 300px;
+      width: 100%;
+      object-fit: contain;
     }
   }
   .des {
@@ -27,6 +29,7 @@
 
 .experience {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 
   .title {
@@ -40,5 +43,33 @@
     font-size: 14px;
     line-height: 20px;
     color: #333;
+  }
+}
+
+@media (min-width: 600px) {
+  .experience {
+    flex-direction: row;
+  }
+  .profile {
+    flex-direction: row;
+    .imgWrap {
+      img {
+        width: 280px;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .about-container {
+    padding: 50px 20vw;
+  }
+  .profile {
+    padding: 20px;
+    .imgWrap {
+      img {
+        width: 300px;
+      }
+    }
   }
 }
