@@ -1,8 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Projects = () => {
+  const navigate = useNavigate()
+
   const handleOpenProject = (path) => {
-    window.location.href = `/shannn-portfolio/${path}`
+    navigate(path)
   }
 
   return (
