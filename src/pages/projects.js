@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   const handleOpenProject = (path) => {
-    window.location.href = path
+    window.location.href = `/shannn-portfolio/${path}`
   }
 
   return (
