@@ -5,7 +5,10 @@ const Layout = () => {
   return (
     <div className="layout-wrap">
       <div className="nav-wrap">
-        <div className="nav-icon">icon</div>
+        <div className="nav-icon">
+          <img src="shannn_icon.png" alt="portfolio icon" />
+          {/* <img src="_.png" alt="portfolio icon" /> */}
+        </div>
         <div className="nav-item-wrap">
           <div className="nav-item">
             <Link to="/">Projects</Link>

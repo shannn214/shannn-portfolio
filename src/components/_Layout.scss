@@ -16,9 +16,16 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  opacity: 0.95;
 
   .nav-icon {
     width: 50px;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 15px;
+    }
   }
   .nav-item-wrap {
     display: flex;

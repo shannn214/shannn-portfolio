@@ -1,6 +1,10 @@
 import React from 'react'
 
 const Projects = () => {
+  const handleOpenProject = (path) => {
+    window.location.href = path
+  }
+
   return (
     <div className="project-container">
       <div className="project-banner">
@@ -10,11 +14,16 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-wrap">
+        <div
+          className="card"
+          onClick={() => handleOpenProject('project_the_cinema')}
+        >
+          <img src="cinema_cover.png" alt="cinema app cover" />
+        </div>
+        {/* <div className="card">aaa</div>
         <div className="card">aaa</div>
         <div className="card">aaa</div>
-        <div className="card">aaa</div>
-        <div className="card">aaa</div>
-        <div className="card">aaa</div>
+        <div className="card">aaa</div> */}
       </div>
     </div>
   )

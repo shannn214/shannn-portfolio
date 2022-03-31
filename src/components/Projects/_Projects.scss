@@ -24,9 +24,17 @@
   // max-width: 60vw;
 
   .card {
-    background-color: rgb(135, 172, 197);
+    // background-color: rgb(135, 172, 197);
     // width: 200px;
     min-height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+
+    img {
+      object-fit: contain;
+      width: 100%;
+      border-radius: 7px;
+    }
   }
 }
 
@@ -46,5 +54,73 @@
       // width: 200px;
       height: 350px;
     }
+  }
+}
+
+// -------- project content --------
+
+.project-content-container {
+  padding-top: 60px;
+}
+.project-content-banner {
+  width: 100%;
+  object-fit: contain;
+}
+.project-content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20vw;
+}
+.project-content-header {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 40px 0 15px 0;
+  color: #353535;
+}
+.project-content-paragraph {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8f8f8f;
+  padding-bottom: 30px;
+  line-height: 1.43;
+}
+.project-content-img {
+  width: 100%;
+  object-fit: contain;
+}
+.project-content-img-50 {
+  width: 50%;
+  object-fit: contain;
+}
+.project-content-section-column {
+  padding: 0 20vw;
+  display: flex;
+  justify-content: center;
+}
+.margin-r {
+  margin-right: 25px;
+}
+.project-content-footer {
+  // width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20vw 10px 20vw;
+  color: white;
+  background-color: #313844;
+  .title {
+    margin-bottom: 20px;
+  }
+  .contact {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .copy-right {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 0;
   }
 }
