@@ -63,7 +63,14 @@ const ProjectTheCinema = () => {
         <div className="project-content-header">Digital Prototype</div>
         <div className="project-content-paragraph">
           Turing the paper works to digital wireframes. Modified some details
-          based on the user research and the real vision on the mobile screen.
+          based on the user research and the real vision on the mobile screen.{' '}
+          <a
+            target="_blank"
+            href="https://www.figma.com/file/feOatnGRsfGZ7bylFQCiQg/Project-1---UX-wireframe?node-id=124%3A493"
+            rel="noreferrer"
+          >
+            Browse on Figma
+          </a>
         </div>
         <img
           className="project-content-img"
